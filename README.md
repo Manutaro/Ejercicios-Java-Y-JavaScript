@@ -1,4 +1,4 @@
-# Repositorio: Ejercicios y Proyectos
+# Repositorio: Ejercicios JAVA y JavaScript
 
 Este repositorio contiene la recopilación organizada de ejercicios, prácticas de código y proyectos desarrollados a lo largo del programa intensivo de desarrollo full stack en Generation. El objetivo principal de este proyecto es estructurar el aprendizaje en desarrollo backend con Java y desarrollo frontend/scripting con JavaScript.
 
