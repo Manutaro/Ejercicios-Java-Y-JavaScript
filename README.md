@@ -164,6 +164,6 @@ out/
 
 ## Créditos y Autor
 
-* **Autor:** Estudiante de Generation México: Manuel Rodríguez González
+* **Autor:** Estudiante de Generation México: Manuel Rodríguez González.
 * **Institución:** Generation México.
 * **Licencia:** Proyecto educativo desarrollado con fines de aprendizaje e integración técnica.
