@@ -1,0 +1,30 @@
+
+/* Estilos generales */
+body {
+    background-color: #1cca4d;
+}
+
+/* Título */
+h1 {
+    color: white;
+   -webkit-text-stroke: 1px black;
+}
+/* Parrafo */
+p{
+    text-align: center;
+    color: white;
+}
+
+/* Espacio entre las tareas */
+#listaTareas li {
+    margin-bottom: 8px;
+    text-align: center;
+    color:orangered;
+    font-style: bold;
+}
+
+/* Alerta de advertencia */
+#alertaTarea {
+    margin-bottom: 15px;
+   
+}

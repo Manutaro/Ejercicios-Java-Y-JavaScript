@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lista de tareas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <!-- Iconos SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+
+        <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
+            <path
+                d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+        </symbol>
+
+    </svg>
+
+    <div class="container mt-5">
+
+        <h1 class="text-center mb-4">Lista de tareas</h1>
+        <p>Escribe algo para añadirlo a tu lista de tareas:</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+
+                <!-- Alerta de advertencia -->
+                <div id="alertaTarea" class="alert alert-warning d-none align-items-center" role="alert">
+
+                    <svg class="bi flex-shrink-0 me-2" width="16" height="16" role="img" aria-label="Advertencia">
+                        <use href="#exclamation-triangle-fill" />
+                    </svg>
+
+                    <div>
+                        Debes escribir una tarea.
+                    </div>
+
+                </div>
+
+                <div class="input-group mb-3">
+
+                    <input type="text" id="iptTarea" class="form-control" placeholder="Escribe una tarea">
+
+                    <button id="btnAgregar" class="btn btn-primary">
+                        Agregar tarea
+                    </button>
+
+                </div>
+
+                <ul id="listaTareas" class="list-group"></ul>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
